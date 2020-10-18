@@ -47,6 +47,9 @@ body {
 .menu {
     display: none;
     list-style-type: none;
+    line-height: 100px;
+    height: 100vh;
+    font-size: 30px;
 }
 
 .active {
@@ -72,7 +75,7 @@ body {
 }
 
 .logo-inactive {
-    display: none;
+    visibility: hidden;
 }
 
 .logo:hover,
@@ -94,6 +97,9 @@ body {
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
+        line-height: auto;
+        height: auto;
+        font-size: 18px;
     }
 
     .menu li {
@@ -101,11 +107,12 @@ body {
     }
 
     .nav-links {
-        margin-left: 40px;
+        margin-left: 100px;
     }
 
     .logo {
         margin-top: 0;
+        visibility: visible;
     }
 
     .navbar-toggle {
